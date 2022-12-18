@@ -1,0 +1,17 @@
+{
+  "name": "sqma-assignment",
+  "version": "1.0.0",
+  "description": "SQMA assignment for ISM",
+  "main": "index.js",
+  "scripts": {
+    "test-dep": "cucumber-js --name selenium-dep",
+    "test-docs": "cucumber-js --name selenium-doc"
+  },
+  "author": "Stefan-Ciprian Popescu",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.9.1",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.7.1"
+  }
+}
